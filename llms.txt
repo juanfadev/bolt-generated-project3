@@ -1,0 +1,6 @@
+Supported LLMs:
+
+    - Gemini 1.5 Flash
+    - Gemini 1.5 Pro
+
+    Note: This application currently uses the Gemini API. Support for other LLMs may be added in the future.

@@ -1,0 +1,84 @@
+.formOverlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .chapterForm {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      width: 90%;
+      max-width: 500px;
+    }
+
+    .formHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+    }
+
+    .chapterForm label {
+      display: block;
+    }
+
+    .chapterForm input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .formButtons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+    }
+
+    .chapterForm button {
+      background-color: #0077cc;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .chapterForm button:hover {
+      background-color: #005fa3;
+    }
+
+    .chapterForm button[type='button'] {
+      background-color: #ccc;
+    }
+
+    .chapterForm button[type='button']:hover {
+      background-color: #999;
+    }
+
+    .aiButton {
+      background-color: #f9a825;
+      color: #fff;
+      border: none;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      font-size: 1.2rem;
+      margin-left: auto;
+    }
+
+    .aiButton:hover {
+      background-color: #f57c00;
+    }

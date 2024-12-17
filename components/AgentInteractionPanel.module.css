@@ -1,0 +1,51 @@
+.agentPanel {
+      background-color: #fff;
+      border: 1px solid #eee;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+    }
+
+    .agentPanelTitle {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+
+    .agentButtons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .agentButton {
+      background-color: #0077cc;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .agentButton:hover {
+      background-color: #005fa3;
+    }
+
+    .agentResponse {
+      background-color: #f8f8f8;
+      border: 1px solid #eee;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+
+    .agentResponseTitle {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .agentResponseContent {
+      white-space: pre-wrap;
+      font-family: 'Courier New', Courier, monospace;
+    }

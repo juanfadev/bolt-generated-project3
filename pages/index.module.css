@@ -1,0 +1,41 @@
+.header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .createButton {
+      background-color: #4caf50;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .createButton:hover {
+      background-color: #45a049;
+    }
+
+    .apiKeyButton {
+      background-color: #607d8b;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+
+    .apiKeyButton:hover {
+      background-color: #455a64;
+    }
+
+    .apiKeyDisplay {
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
